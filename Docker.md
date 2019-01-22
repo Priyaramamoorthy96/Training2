@@ -3,7 +3,7 @@
 Docker is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS), with an ecosystem of allied tools.
 Docker is a tool that packages, provisions and runs containers independent of the OS.Docker was created to work on the Linux platform, but has extended to offer greater support for non-Linux operating systems, including Microsoft Windows and Apple OS X. Versions of Docker for Amazon Web Services (AWS) and Microsoft Azure are available.
 
-## How to Install Dowker for windows 10
+## How to Install Docker for windows 10
 
 Docker Desktop for Windows requires Microsoft Hyper-V to run. The Docker Desktop for Windows installer enables Hyper-V for you, if needed, and restarts your machine. After Hyper-V is enabled, VirtualBox no longer works, but any VirtualBox VM images remain. VirtualBox VMs created with docker-machine (including the default one typically created during Toolbox install) no longer start. These VMs cannot be used side-by-side with Docker Desktop for Windows. However, you can still use docker-machine to manage remote VMs.
 
