@@ -17,7 +17,9 @@ There are three steps to complete the PostgreSQL installation:
 ### Connecting to a PostgreSql Database
 
  There 2 ways to connect
+ 
      - Psql(Interactive SQL shell terminal) 
+     
      - PgAdmin(GUI)
 
 ## Operations in PostgreSql
