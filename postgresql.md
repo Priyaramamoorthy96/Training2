@@ -1,6 +1,6 @@
-#POSTGRESQL
+# POSTGRESQL
 
-## POSTGRESQL
+## POSTGRESQL 
 
 PostgreSQL (pronounced "post-gress-Q-L") is an open source relational database management system ( DBMS ) developed by a worldwide team of volunteers. PostgreSQL is not controlled by any corporation or other private entity and the source code is available free of charge.
 
@@ -18,9 +18,9 @@ There are three steps to complete the PostgreSQL installation:
 
  There 2 ways to connect
  
-     - Psql(Interactive SQL shell terminal) 
+  - Psql(Interactive SQL shell terminal) 
      
-     - PgAdmin(GUI)
+  - PgAdmin(GUI)
 
 ## Operations in PostgreSql
 
