@@ -20,13 +20,14 @@ CPU SLAT-capable feature.
 
 - Double-click Docker Desktop for Windows Installer.exe to run the installer.
 
+- If you haven’t already downloaded the installer (Docker Desktop Installer.exe), you can get it from download.docker.com. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
+
 - Follow the install wizard to accept the license, authorize the installer, and proceed with the install.
 
 - You are asked to authorize Docker.app with your system password during the install process. Privileged access is needed to install networking components, links to the Docker apps, and manage the Hyper-V VMs.
 
 - Click Finish on the setup complete dialog to launch Docker.
 
-- Docker does not start automatically after installation. To start it, search for Docker, select Docker Desktop for Windows in the search results, and click it (or hit Enter).
 
 ### Docker Advantages 
 
