@@ -1,6 +1,6 @@
 # Docker
 
-Docker is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS), with an ecosystem of allied tools.
+Docker is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS).
 Docker is a tool that packages, provisions and runs containers independent of the OS.Docker was created to work on the Linux platform, but has extended to offer greater support for non-Linux operating systems, including Microsoft Windows and Apple OS X. Versions of Docker for Amazon Web Services (AWS) and Microsoft Azure are available.
 
 ## How to Install Docker for windows 10
@@ -9,10 +9,11 @@ Docker Desktop for Windows requires Microsoft Hyper-V to run. The Docker Desktop
 
 ### System Requirements:
 
-- Windows 10 64bit: Pro, Enterprise or Education (1607 Anniversary Update, Build 14393 or later).
+- Windows 10 64bit.
 
 - Virtualization is enabled in BIOS. Typically, virtualization is enabled by default. This is different from having Hyper-V enabled. 
-CPU SLAT-capable feature.
+
+- CPU SLAT-capable feature.
 
 - At least 4GB of RAM.
 
