@@ -66,6 +66,8 @@ Drop database pramati;
  public | employee | table | postgres
 
 
+### To exit from postgresql
+
 TO Come out of postgresql - ctrl + c
 
 
