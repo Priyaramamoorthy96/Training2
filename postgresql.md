@@ -55,9 +55,12 @@ Drop database pramati;
 
     -output:
 
-          List of relations
+      List of relations
+
  Schema |   Name   | Type  |  Owner
+
 --------+----------+-------+----------
+
  public | employee | table | postgres
 
 
