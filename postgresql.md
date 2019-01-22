@@ -55,7 +55,7 @@ Drop database pramati;
 
 - Description of the table - \d 
 
-    -output:
+    - output:
 
       List of relations
 
