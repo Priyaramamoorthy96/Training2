@@ -30,15 +30,18 @@ Click Finish on the setup complete dialog to launch Docker.
 Docker does not start automatically after installation. To start it, search for Docker, select Docker Desktop for Windows in the search results, and click it (or hit Enter).
 
 ### Docker Advantages 
-Docker advantages and disadvantages
 
 Docker has emerged as a de facto standard platform that allows users to quickly compose, create, deploy, scale and oversee containers across Docker hosts. 
+
 Docker allows a high degree of portability so that users can register and share containers over various hosts in private and public environments. 
+
 Docker benefits include efficient application development, lower resource use and faster deployment compared to VMs.
 
 ### Docker DisAdvantages
 
-There are also potential challenges with Docker. The sheer number of containers possible in an enterprise can be difficult to manage efficiently. 
+There are also potential challenges with Docker. The sheer number of containers possible in an enterprise can be difficult to manage efficiently.
+
 Security can also pose a problem. Despite excellent logical isolation, containers share the host's operating system. 
+
 An attack or flaw in the underlying operating system can potentially compromise all of the containers running atop the OS. 
 Some organizations run containers within a VM, although containers do not require virtual machines.
