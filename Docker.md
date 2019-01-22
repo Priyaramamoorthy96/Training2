@@ -11,7 +11,7 @@ Docker Desktop for Windows requires Microsoft Hyper-V to run. The Docker Desktop
 ### System Requirements:
 
 Windows 10 64bit: Pro, Enterprise or Education (1607 Anniversary Update, Build 14393 or later).
-Virtualization is enabled in BIOS. Typically, virtualization is enabled by default. This is different from having Hyper-V enabled. For more detail see Virtualization must be enabled in Troubleshooting.
+Virtualization is enabled in BIOS. Typically, virtualization is enabled by default. This is different from having Hyper-V enabled. 
 CPU SLAT-capable feature.
 At least 4GB of RAM.
 
@@ -19,7 +19,7 @@ At least 4GB of RAM.
 
 Double-click Docker Desktop for Windows Installer.exe to run the installer.
 
-If you haven’t already downloaded the installer (Docker Desktop Installer.exe), you can get it from download.docker.com. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
+If you havenâ€™t already downloaded the installer (Docker Desktop Installer.exe), you can get it from download.docker.com. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
 
 Follow the install wizard to accept the license, authorize the installer, and proceed with the install.
 
