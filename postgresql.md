@@ -64,6 +64,7 @@ Drop database pramati;
  public | employee | table | postgres
 
 
+TO Come out of postgresql - ctrl + c
 
 
 
@@ -71,6 +72,7 @@ Drop database pramati;
   
 
 
-TO Come out of postgresql - ctrl + c
-to get version - SELECT version();
+
+
+
 
