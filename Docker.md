@@ -11,15 +11,15 @@ Docker Desktop for Windows requires Microsoft Hyper-V to run. The Docker Desktop
 ### System Requirements:
 
 Windows 10 64bit: Pro, Enterprise or Education (1607 Anniversary Update, Build 14393 or later).
+
 Virtualization is enabled in BIOS. Typically, virtualization is enabled by default. This is different from having Hyper-V enabled. 
 CPU SLAT-capable feature.
+
 At least 4GB of RAM.
 
 ### Install Docker Desktop for Windows desktop app
 
 Double-click Docker Desktop for Windows Installer.exe to run the installer.
-
-If you haven’t already downloaded the installer (Docker Desktop Installer.exe), you can get it from download.docker.com. It typically downloads to your Downloads folder, or you can run it from the recent downloads bar at the bottom of your web browser.
 
 Follow the install wizard to accept the license, authorize the installer, and proceed with the install.
 
@@ -28,4 +28,17 @@ You are asked to authorize Docker.app with your system password during the insta
 Click Finish on the setup complete dialog to launch Docker.
 
 Docker does not start automatically after installation. To start it, search for Docker, select Docker Desktop for Windows in the search results, and click it (or hit Enter).
-When initialization is complete, select About Docker from the Notifications area icon to verify that you have the latest version.
+
+### Docker Advantages 
+Docker advantages and disadvantages
+
+Docker has emerged as a de facto standard platform that allows users to quickly compose, create, deploy, scale and oversee containers across Docker hosts. 
+Docker allows a high degree of portability so that users can register and share containers over various hosts in private and public environments. 
+Docker benefits include efficient application development, lower resource use and faster deployment compared to VMs.
+
+### Docker DisAdvantages
+
+There are also potential challenges with Docker. The sheer number of containers possible in an enterprise can be difficult to manage efficiently. 
+Security can also pose a problem. Despite excellent logical isolation, containers share the host's operating system. 
+An attack or flaw in the underlying operating system can potentially compromise all of the containers running atop the OS. 
+Some organizations run containers within a VM, although containers do not require virtual machines.
