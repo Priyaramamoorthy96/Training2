@@ -13,6 +13,13 @@ There are three steps to complete the PostgreSQL installation:
  2.Install PostgreSQL
 
  3.Verify the installation
+ 
+ ### Installation of PostgreSql in docker
+ 
+   - docker run --name postgres -e POSTGRES_PASSWORD=tiger -d postgres
+    
+   - docker exec -it postgres psql -U postgres 
+ 
 
 ### Connecting to a PostgreSql Database
 
