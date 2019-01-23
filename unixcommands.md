@@ -33,14 +33,7 @@ Run the following to get the ubuntu to be insatalled
      
 - touch - to create a file
 
-- vi - to write or edit file
-    
-       - to write in vi prompt press i
-       
-       - to save esc 
-       
-       - to exit :wq
-       
+- vi - to write or edit file  
 
 - cat - to show the content of the file
 
