@@ -30,6 +30,17 @@ Run the following to get the ubuntu to be insatalled
        - apt-get update
 
       - apt-get install vim
+     
+- touch - to create a file
+
+- vi - to write or edit file
+    
+       - to write in vi prompt press i
+       
+       - to save esc 
+       
+       - to exit :wq
+       
 
 - cat - to show the content of the file
 
