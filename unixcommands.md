@@ -17,7 +17,7 @@
 
         - docker exec -it <container> bash
 
-    -2. then run the following commands
+    - 2. then run the following commands
 
        - apt-get update
 
