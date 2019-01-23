@@ -1,4 +1,11 @@
-# Unix Commands
+# Unix
+## Install ubuntu in docker
+
+Run the following to get the ubuntu to be insatalled
+ 
+ - docker run -it ubuntu bash
+
+## Unix commands
 
 - ls --- lists your files.
 
