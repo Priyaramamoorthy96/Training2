@@ -23,8 +23,9 @@ Run the following to get the ubuntu to be insatalled
     - 1.To use vi in ubuntu docker 
 
         - docker exec -it containername  bash
+        
 
-    - 2. then run the following commands
+    - 2.then run the following commands
 
        - apt-get update
 
