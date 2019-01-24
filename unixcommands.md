@@ -180,7 +180,9 @@ root@d7e3573d5eb5:/pramati/company# diff employee employee_details
 < DOB   :12/12/1993
 
 < Salary: 31k
+
 ---
+
 < Name : priya
 
 < Age  : 21
