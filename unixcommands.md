@@ -61,7 +61,7 @@ employee_details
 
 #### vi --- to write or edit file
     
-     - 1.To use vi in ubuntu docker 
+    - 1.To use vi in ubuntu docker 
 
         - docker exec -it containername  bash
         
@@ -70,7 +70,7 @@ employee_details
 
        - apt-get update
 
-      - apt-get install vim
+       - apt-get install vim
     
 
 #### cat --- to show the content of the file
@@ -180,16 +180,14 @@ root@d7e3573d5eb5:/pramati/company# diff employee employee_details
 < DOB   :12/12/1993
 
 < Salary: 31k
-
 ---
+< Name : priya
 
-> Name : priya
+< Age  : 21
 
-> Age  : 21
+< DOB  : 11/11/1996
 
-> DOB  : 11/11/1996
-
-> Salary : 3.75l
+< Salary : 3.75l
 
 #### wc filename --- tells you how many lines, words, and characters there are in a file
 
