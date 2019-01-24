@@ -12,12 +12,12 @@ Run the following to get the ubuntu to be installed
  - **To lists your files**
 
  ```
-Syntax : ls
+- Syntax : ls
  
-Example :
+- Example :
 root@d7e3573d5eb5:/pramati#ls
  
-Output :
+- Output :
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
 
