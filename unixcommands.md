@@ -41,7 +41,6 @@ OUTPUT :
 -  **mkdir dirname --- Make a new directory**
 ```
 root@d7e3573d5eb5:/pramati# mkdir company
-
 root@d7e3573d5eb5:/pramati# ls
 
 OUTPUT :
@@ -70,7 +69,6 @@ OUTPUT :
 
 ```
 root@d7e3573d5eb5:/pramati/company# touch employee_details
-
 root@d7e3573d5eb5:/pramati/company# ls
 
 OUTPUT :
@@ -94,138 +92,117 @@ root@d7e3573d5eb5:/pramati/company# cat employee_details
 
 OUTPUT:
 Name : priya
-
 Age  : 21
-
 DOB  : 11/11/1996
-
 Salary : 3.75l
 ```
 
-#### cat file1 >file 2 - over write the content
+#### cat file1 >file 2 - Over write the content
 
+```
 root@d7e3573d5eb5:/pramati# cat employee>employee1
-
 root@d7e3573d5eb5:/pramati# cat employee1
 
+OUTPUT :
 name:prasanna
-
 age:21
-
 dob:12/12/1997
-
-salary:3.75l
-
+Salary:3.75l
 position:Assosiate
+```
 
-#### cat file1>>file2 - append the content
-
+#### cat file1>>file2 - Append the content
+```
 root@d7e3573d5eb5:/pramati# cat employee>>employee1
-
 root@d7e3573d5eb5:/pramati# cat employee1
 
+OUTPUT:
 name:priya
-
 age:21
-
 dob:12/12/1997
-
 salary:3.75l
-
 position:Assosiate
 
 name:priya
-
 age:21
-
 dob:12/12/1997
-
 salary:3.75l
-
 position:Assosiate
+```
 
-#### mv filename1 filename2 --- moves a file 
+- **mv filename1 filename2 --- moves a file**
 
+```
 root@d7e3573d5eb5:/pramati# mv employee1 company
-
-root@d7e3573d5eb5:/pramati# ls
-
-company  employee2
-
 root@d7e3573d5eb5:/pramati# cd company
-
 root@d7e3573d5eb5:/pramati/company# ls
 
+OUTPUT:
 employee1  employee_details
+```
 
-#### cp filename1 filename2 --- copies a file
-
+- **cp filename1 filename2 --- Copies a file**
+```
 root@d7e3573d5eb5:/pramati/company# cp employee_details employee_personal_details 
-
 root@d7e3573d5eb5:/pramati/company# cat employee_personal_details
 
+OUTPUT :
 Name : priya
-
 Age  : 21
-
 DOB  : 11/11/1996
-
 Salary : 3.75l
-
-### rm filename --- removes a file.
-
+```
+-  **rm filename --- Removes a file.**
+```
 root@d7e3573d5eb5:/pramati/company# rm employee_personal_details
-
 root@d7e3573d5eb5:/pramati/company# ls
 
+OUTPUT:
+
 employee_details  pramati
-
+```
  
-### diff filename1 filename2 --- compares files, and shows where they differ
-
+- **diff filename1 filename2 --- compares files, and shows where they differ**
+```
 root@d7e3573d5eb5:/pramati/company# diff employee employee
-
 root@d7e3573d5eb5:/pramati/company# diff employee employee_details
 
+OUTPUT :
 1,4c1,5
-
 < Name  :  prasanna
-
 < Age   : 25
-
 < DOB   :12/12/1993
-
 < Salary: 31k
 
-
 < Name : priya
-
 < Age  : 21
-
 < DOB  : 11/11/1996
-
 < Salary : 3.75l
-
-#### wc filename --- tells you how many lines, words, and characters there are in a file
-
+```
+- **wc filename --- Tells you how many lines, words, and characters there are in a file**
+```
 root@d7e3573d5eb5:/pramati/company# wc employee
 
+OUTPUT :
  4 10 59 employee
+ ```
 
-#### date - tells the current date
-
+- **date - tells the current date**
+```
 root@d7e3573d5eb5:/pramati/company# date
 
+OUTPUT :
 Thu Jan 24 05:20:26 UTC 2019
+```
 
-#### find - The find command all of the files within a directory and its subdirectories that match a set of conditions. 
+- **find - The find command all of the files within a directory and its subdirectories that match a set of conditions.**
 
+```
 root@d7e3573d5eb5:/pramati# find company
 
+OUTPUT :
 company
-
 company/employee
-
 company/employee_details
-
 company/pramati
+```
