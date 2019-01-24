@@ -104,13 +104,16 @@ employee_details
 ````
 
 - **To write or edit file**
-```
  - 1.To use vi in ubuntu docker 
-   - docker exec -it containername  bash
-
+ 
+ ```
+   docker exec -it containername  bash
+```
  - 2.Then run the following commands
-   - apt-get update
-   - apt-get install vim
+ ```
+    apt-get update
+    apt-get install vim
+   
    ``` 
 
 - **To show the content of the file**
@@ -185,7 +188,7 @@ Output :
 employee1  employee_details
 ```
 
-- ** To copy a file**
+- **To copy a file**
 ```
 Syntax:
 cp filename1 filename2
