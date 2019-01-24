@@ -15,44 +15,53 @@ root@d7e3573d5eb5:/# ls
      
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
 
-### ls -l --- lists your files in 'long format'.
+#### ls -l --- lists your files in 'long format'.
 
-     root@d7e3573d5eb5:/pramati# ls -l
+root@d7e3573d5eb5:/pramati# ls -l
 
-     total 8
+ total 8
 
 -rw-r--r-- 1 root root 69 Jan 23 09:10 employee
 
 -rw-r--r-- 1 root root 69 Jan 23 09:08 employee2
 
-- ls -a --- lists all files, including the ones whose filenames begin in a dot, which you do not always want to see. 
+#### ls -a --- lists all files, including the ones whose filenames begin in a dot, which you do not always want to see. 
 
 root@d7e3573d5eb5:/pramati# ls -a
 
 .  ..  employee  employee2
 
-- mkdir dirname --- make a new directory
+#### mkdir dirname --- make a new directory
 
 root@d7e3573d5eb5:/pramati# mkdir company
 
 root@d7e3573d5eb5:/pramati# ls
 
-company  employee  employee2
+Company  employee  employee2
 
-- cd dirname --- change directory.
+#### cd dirname --- change directory.
 
 root@d7e3573d5eb5:/pramati# cd company
 
 root@d7e3573d5eb5:/pramati/company#
 
-- pwd --- tells you where you path
+#### pwd --- tells you where you path
 
 root@d7e3573d5eb5:/pramati/company# pwd
 
 /pramati/company
-- vi
- 
-    - 1.To use vi in ubuntu docker 
+
+#### touch --- to create a file
+
+root@d7e3573d5eb5:/pramati/company# touch employee_details
+
+root@d7e3573d5eb5:/pramati/company# ls
+
+employee_details
+
+#### vi --- to write or edit file
+    
+     - 1.To use vi in ubuntu docker 
 
         - docker exec -it containername  bash
         
@@ -62,18 +71,9 @@ root@d7e3573d5eb5:/pramati/company# pwd
        - apt-get update
 
       - apt-get install vim
-     
-- touch - to create a file
+    
 
-root@d7e3573d5eb5:/pramati/company# touch employee_details
-
-root@d7e3573d5eb5:/pramati/company# ls
-
-employee_details
-
-- vi - to write or edit file  
-
-- cat - to show the content of the file
+#### cat --- to show the content of the file
 
 root@d7e3573d5eb5:/pramati/company# cat employee_details
 
@@ -86,7 +86,7 @@ DOB  : 11/11/1996
 Salary : 3.75l
 
 
-- cat file1 >file 2 - over write the content
+#### cat file1 >file 2 - over write the content
 
 root@d7e3573d5eb5:/pramati# cat employee>employee1
 
@@ -102,7 +102,7 @@ salary:3.75l
 
 position:Assosiate
 
-- cat file1>>file2 - append the content
+#### cat file1>>file2 - append the content
 
 root@d7e3573d5eb5:/pramati# cat employee>>employee1
 
@@ -128,8 +128,7 @@ salary:3.75l
 
 position:Assosiate
 
-
-- mv filename1 filename2 --- moves a file 
+#### mv filename1 filename2 --- moves a file 
 
 root@d7e3573d5eb5:/pramati# mv employee1 company
 
@@ -143,7 +142,8 @@ root@d7e3573d5eb5:/pramati/company# ls
 
 employee1  employee_details
 
-- cp filename1 filename2 --- copies a file
+#### cp filename1 filename2 --- copies a file
+
 root@d7e3573d5eb5:/pramati/company# cp employee_details employee_personal_details 
 
 root@d7e3573d5eb5:/pramati/company# cat employee_personal_details
@@ -156,7 +156,7 @@ DOB  : 11/11/1996
 
 Salary : 3.75l
 
-- rm filename --- removes a file.
+### rm filename --- removes a file.
 
 root@d7e3573d5eb5:/pramati/company# rm employee_personal_details
 
@@ -165,7 +165,7 @@ root@d7e3573d5eb5:/pramati/company# ls
 employee_details  pramati
 
  
-- diff filename1 filename2 --- compares files, and shows where they differ
+### diff filename1 filename2 --- compares files, and shows where they differ
 
 root@d7e3573d5eb5:/pramati/company# diff employee employee
 
@@ -191,19 +191,19 @@ root@d7e3573d5eb5:/pramati/company# diff employee employee_details
 
 > Salary : 3.75l
 
-- wc filename --- tells you how many lines, words, and characters there are in a file
+#### wc filename --- tells you how many lines, words, and characters there are in a file
 
 root@d7e3573d5eb5:/pramati/company# wc employee
 
  4 10 59 employee
 
-- date - tells the current date
+#### date - tells the current date
 
 root@d7e3573d5eb5:/pramati/company# date
 
 Thu Jan 24 05:20:26 UTC 2019
 
-- find - The find command all of the files within a directory and its subdirectories that match a set of conditions. 
+#### find - The find command all of the files within a directory and its subdirectories that match a set of conditions. 
 
 root@d7e3573d5eb5:/pramati# find company
 
