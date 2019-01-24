@@ -12,12 +12,12 @@ Run the following to get the ubuntu to be installed
  - **To lists your files**
 
  ```
-- Syntax : ls
+Syntax : ls
  
-- Example :
+Example :
 root@d7e3573d5eb5:/pramati#ls
  
-- Output :
+Output :
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
 
@@ -96,13 +96,8 @@ Output :
 employee_details
 ````
 
-- **To write or edit file**
- - 1.To use vi in ubuntu docker 
- 
- ```
-   docker exec -it containername  bash
-```
- - 2.Then run the following commands
+- **To write or edit a file**
+   - To use vi in ubuntu docker use the following commands
  ```
     apt-get update
     apt-get install vim   
@@ -162,7 +157,7 @@ salary:3.75l
 position:Assosiate
 ```
 
-- **Moves a file**
+- **To move a file**
 
 ```
 syntax : mv filename1 filename2
