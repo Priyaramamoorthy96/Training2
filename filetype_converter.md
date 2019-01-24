@@ -4,7 +4,7 @@
 
 To convert the file to a given filetype from the existing file type using shell programming.
 
-**SHELL SCRIPING CODE **
+**SHELL SCRIPING CODE**
 
 ```
 #!/bin/bash
