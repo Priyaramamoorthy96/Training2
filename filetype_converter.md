@@ -2,7 +2,7 @@
 
 **TASK**
 
-To convert the file to a given filetype from the existing file type using shell programming.
+Convert the file to the given filetype from the existing file type using shell programming.
 
 **SHELL SCRIPING CODE**
 
