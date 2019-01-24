@@ -5,15 +5,14 @@ Run the following to get the ubuntu to be installed
  
  -  docker run -it ubuntu bash
  
-     ``` PS C:\Users\Priya> docker exec -it festive_elion bash ```
+     ```docker exec -it festive_elion bash ```
 
 ## Unix commands
 
-#### ls --- lists your files.
+#### -ls --- lists your files.
 
-root@d7e3573d5eb5:/# ls
-     
-bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
+ ```ls```    
+```bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var```
 
 #### ls -l --- lists your files in 'long format'.
 
