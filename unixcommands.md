@@ -14,9 +14,7 @@ Run the following to get the ubuntu to be installed
  ```ls```    
 ```bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var```
 
-#### ls -l --- lists your files in 'long format'.
-
- ``` ls -l ```
+#### ls -l --- lists your files in 'long format' - ``` ls -l ```
 OUTPUT
 ``` total 8
 
