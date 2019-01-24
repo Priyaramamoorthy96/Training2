@@ -202,7 +202,7 @@ Age  : 21
 DOB  : 11/11/1996
 Salary : 3.75l
 ```
--  *To remove a file.**
+-  **To remove a file.**
 ```
 syntax :
 rm filename
