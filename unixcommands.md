@@ -9,10 +9,14 @@ Run the following to get the ubuntu to be installed
 
 ## Unix commands
 
- - **ls --- Lists your files**
+ - **To lists your files**
 
  ```
+Syntax :
 ls
+ 
+Example :
+root@d7e3573d5eb5:/pramati#ls
  
 Output :
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
