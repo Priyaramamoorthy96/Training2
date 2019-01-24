@@ -59,7 +59,7 @@ Output :
 Company  employee  employee2
 ```
 
--  **Change directory.**
+-  **Change directory**
 
 ```
 Syntax : cd dirname
@@ -185,7 +185,7 @@ Age  : 21
 DOB  : 11/11/1996
 Salary : 3.75l
 ```
--  **To remove a file.**
+-  **To remove a file**
 ```
 syntax : rm filename
 
@@ -238,7 +238,7 @@ Output :
 Thu Jan 24 05:20:26 UTC 2019
 ```
 
-- **The find command finds all of the files within a directory and its subdirectories that match a set of conditions.**
+- **The find command finds all of the files within a directory and its subdirectories that match a set of conditions**
 
 ```
 Syntax : find 
