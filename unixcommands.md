@@ -60,13 +60,13 @@ root@d7e3573d5eb5:/pramati/company# ls
 employee_details
 
 #### vi --- to write or edit file
-    
-    - 1.To use vi in ubuntu docker 
-        - docker exec -it containername  bash
 
-    - 2.Then run the following commands
-       - apt-get update
-       - apt-get install vim
+ - 1.To use vi in ubuntu docker 
+   - docker exec -it containername  bash
+
+ - 2.Then run the following commands
+   - apt-get update
+   - apt-get install vim
     
 
 #### cat --- to show the content of the file
