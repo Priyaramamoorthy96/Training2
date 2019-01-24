@@ -9,20 +9,22 @@ Run the following to get the ubuntu to be installed
 
 ## Unix commands
 
-#### -ls --- lists your files.
+#### - ls --- lists your files.
 
  ```ls```    
 ```bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var```
 
 #### ls -l --- lists your files in 'long format'.
 
-root@d7e3573d5eb5:/pramati# ls -l
+ ``` ls -l ```
 
- total 8
+OUTPUT
+
+``` total 8
 
 -rw-r--r-- 1 root root 69 Jan 23 09:10 employee
 
--rw-r--r-- 1 root root 69 Jan 23 09:08 employee2
+-rw-r--r-- 1 root root 69 Jan 23 09:08 employee2 ```
 
 #### ls -a --- lists all files, including the ones whose filenames begin in a dot, which you do not always want to see. 
 
