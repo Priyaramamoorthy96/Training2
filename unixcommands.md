@@ -62,14 +62,10 @@ employee_details
 #### vi --- to write or edit file
     
     - 1.To use vi in ubuntu docker 
-
         - docker exec -it containername  bash
-        
 
-    - 2.then run the following commands
-
+    - 2.Then run the following commands
        - apt-get update
-
        - apt-get install vim
     
 
