@@ -29,7 +29,7 @@ total 8
 -rw-r--r-- 1 root root 69 Jan 23 09:08 employee2
 ```
 
--**ls -a --- Lists all files, including the ones whose filenames begin in a dot, which you do not always want to see**
+- **ls -a --- Lists all files, including the ones whose filenames begin in a dot, which you do not always want to see**
 
 ```
  ls -a
@@ -38,48 +38,61 @@ OUTPUT :
 .  ..  employee  employee2
 ```
 
-#### mkdir dirname --- make a new directory
-
+-  **mkdir dirname --- Make a new directory**
+```
 root@d7e3573d5eb5:/pramati# mkdir company
 
 root@d7e3573d5eb5:/pramati# ls
 
+OUTPUT :
 Company  employee  employee2
+```
 
-#### cd dirname --- change directory.
+-  **cd dirname --- Change directory.**
 
+```
 root@d7e3573d5eb5:/pramati# cd company
 
+OUTPUT :
 root@d7e3573d5eb5:/pramati/company#
+```
 
-#### pwd --- tells you where you path
+- **pwd --- tells you where you path**
 
+```
 root@d7e3573d5eb5:/pramati/company# pwd
 
+OUTPUT :
 /pramati/company
+```
 
-#### touch --- to create a file
+- **touch --- To create a file**
 
+```
 root@d7e3573d5eb5:/pramati/company# touch employee_details
 
 root@d7e3573d5eb5:/pramati/company# ls
 
+OUTPUT :
 employee_details
+````
 
-#### vi --- to write or edit file
-
+- **vi --- To write or edit file**
+```
  - 1.To use vi in ubuntu docker 
    - docker exec -it containername  bash
 
  - 2.Then run the following commands
    - apt-get update
    - apt-get install vim
-    
+   ``` 
 
-#### cat --- to show the content of the file
+- **cat --- To show the content of the file**
 
+```
 root@d7e3573d5eb5:/pramati/company# cat employee_details
 
+OUTPUT:
 Name : priya
 
 Age  : 21
@@ -87,7 +100,7 @@ Age  : 21
 DOB  : 11/11/1996
 
 Salary : 3.75l
-
+```
 
 #### cat file1 >file 2 - over write the content
 
