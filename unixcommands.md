@@ -40,8 +40,7 @@ total 8
 - **Lists all files, including the ones whose filenames begin in a dot, which you do not always want to see**
 
 ```
-Syntax :
-ls -a
+Syntax : ls -a
 
 Example :
  root@d7e3573d5eb5:/pramati#ls -a
@@ -52,8 +51,7 @@ Output :
 
 -  **Make a new directory**
 ```
-Syntax :
-mkdir dirname
+Syntax : mkdir dirname
 
 Example :
 root@d7e3573d5eb5:/pramati# mkdir company
@@ -66,8 +64,7 @@ Company  employee  employee2
 -  **Change directory.**
 
 ```
-Syntax :
-cd dirname
+Syntax : cd dirname
 
 Example :
 root@d7e3573d5eb5:/pramati# cd company
@@ -79,8 +76,7 @@ root@d7e3573d5eb5:/pramati/company#
 - **To get the path**
 
 ```
-Syntax :
-pwd
+Syntax : pwd
 
 Example :
 root@d7e3573d5eb5:/pramati/company# pwd
@@ -92,8 +88,7 @@ Ouput :
 - **To create a file**
 
 ```
-Syntax :
-touch filename
+Syntax : touch filename
 
 Example :
 root@d7e3573d5eb5:/pramati/company# touch employee_details
@@ -118,8 +113,7 @@ employee_details
 - **To show the content of the file**
 
 ```
-Syntax :
-cat filenmame
+Syntax : cat filenmame
 
 Example :
 root@d7e3573d5eb5:/pramati/company# cat employee_details
@@ -134,8 +128,7 @@ Salary : 3.75l
 - **To over write the content**
 
 ```
-Syntax :
-cat file1 >file 2
+Syntax : cat file1 >file 2
 
 Example :
 root@d7e3573d5eb5:/pramati# cat employee>employee1
@@ -151,8 +144,7 @@ position:Assosiate
 
 - **To append the content**
 ```
-Syntax :
-cat file1>>file2
+Syntax : cat file1>>file2
 
 Example :
 root@d7e3573d5eb5:/pramati# cat employee>>employee1
@@ -175,8 +167,7 @@ position:Assosiate
 - **Moves a file**
 
 ```
-syntax :
-mv filename1 filename2
+syntax : mv filename1 filename2
 
 Example :
 root@d7e3573d5eb5:/pramati# mv employee1 company
@@ -189,8 +180,7 @@ employee1  employee_details
 
 - **To copy a file**
 ```
-Syntax:
-cp filename1 filename2
+Syntax: cp filename1 filename2
 
 Example:
 root@d7e3573d5eb5:/pramati/company# cp employee_details employee_personal_details 
@@ -204,8 +194,7 @@ Salary : 3.75l
 ```
 -  **To remove a file.**
 ```
-syntax :
-rm filename
+syntax : rm filename
 
 Example :
 root@d7e3573d5eb5:/pramati/company# rm employee_personal_details
@@ -217,8 +206,7 @@ employee_details  pramati
  
 - **Compares files, and shows where they differ**
 ```
-Syntax :
-diff filename1 filename2 
+Syntax : diff filename1 filename2 
 
 Example :
 root@d7e3573d5eb5:/pramati/company# diff employee employee_details
@@ -237,8 +225,7 @@ Output :
 ```
 - **To Tell you how many lines, words, and characters there are in a file**
 ```
-Syntax :
-wc filename
+Syntax : wc filename
 
 Example :
 root@d7e3573d5eb5:/pramati/company# wc employee
@@ -249,8 +236,7 @@ Output :
 
 - **Tells the current date**
 ```
-Syntax :
-date
+Syntax : date
 
 Example : 
 root@d7e3573d5eb5:/pramati/company# date
@@ -262,8 +248,7 @@ Thu Jan 24 05:20:26 UTC 2019
 - **The find command finds all of the files within a directory and its subdirectories that match a set of conditions.**
 
 ```
-Syntax :
-find 
+Syntax : find 
 
 Example :
 root@d7e3573d5eb5:/pramati# find company
