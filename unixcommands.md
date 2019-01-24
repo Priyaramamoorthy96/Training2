@@ -5,7 +5,7 @@ Run the following to get the ubuntu to be installed
  
  -  docker run -it ubuntu bash
  
-     - PS C:\Users\Priya> docker exec -it festive_elion bash
+     ``` PS C:\Users\Priya> docker exec -it festive_elion bash ```
 
 ## Unix commands
 
