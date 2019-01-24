@@ -14,7 +14,7 @@ Run the following to get the ubuntu to be installed
  ```
 ls
  
-OUTPUT :
+Output :
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
 
@@ -42,7 +42,7 @@ ls -a
 Example:
  root@d7e3573d5eb5:/pramati#ls -a
  
-OUTPUT :
+Output :
 .  ..  employee  employee2
 ```
 
@@ -55,7 +55,7 @@ Example:
 root@d7e3573d5eb5:/pramati# mkdir company
 root@d7e3573d5eb5:/pramati# ls
 
-OUTPUT :
+Output :
 Company  employee  employee2
 ```
 
