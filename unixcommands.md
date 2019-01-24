@@ -112,8 +112,7 @@ employee_details
  - 2.Then run the following commands
  ```
     apt-get update
-    apt-get install vim
-   
+    apt-get install vim   
    ``` 
 
 - **To show the content of the file**
