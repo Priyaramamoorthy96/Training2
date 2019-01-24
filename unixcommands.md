@@ -9,18 +9,17 @@ Run the following to get the ubuntu to be installed
 
 ## Unix commands
 
-- ls --- lists your files.
+### ls --- lists your files.
 
- root@d7e3573d5eb5:/# ls
+root@d7e3573d5eb5:/# ls
      
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
 
+### ls -l --- lists your files in 'long format'.
 
-- ls -l --- lists your files in 'long format'.
+     root@d7e3573d5eb5:/pramati# ls -l
 
-root@d7e3573d5eb5:/pramati# ls -l
-
-total 8
+     total 8
 
 -rw-r--r-- 1 root root 69 Jan 23 09:10 employee
 
