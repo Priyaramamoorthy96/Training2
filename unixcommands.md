@@ -43,7 +43,7 @@ total 8
 Syntax :
 ls -a
 
-Example:
+Example :
  root@d7e3573d5eb5:/pramati#ls -a
  
 Output :
@@ -52,10 +52,10 @@ Output :
 
 -  **Make a new directory**
 ```
-Syntax:
+Syntax :
 mkdir dirname
 
-Example:
+Example :
 root@d7e3573d5eb5:/pramati# mkdir company
 root@d7e3573d5eb5:/pramati# ls
 
@@ -122,7 +122,7 @@ cat filenmame
 Example :
 root@d7e3573d5eb5:/pramati/company# cat employee_details
 
-Output:
+Output :
 Name : priya
 Age  : 21
 DOB  : 11/11/1996
@@ -149,14 +149,14 @@ position:Assosiate
 
 - **To append the content**
 ```
-Syntax:
+Syntax :
 cat file1>>file2
 
 Example :
 root@d7e3573d5eb5:/pramati# cat employee>>employee1
 root@d7e3573d5eb5:/pramati# cat employee1
 
-Output:
+Output :
 name:priya
 age:21
 dob:12/12/1997
@@ -202,14 +202,14 @@ Salary : 3.75l
 ```
 -  *To remove a file.**
 ```
-syntax:
+syntax :
 rm filename
 
-Example:
+Example :
 root@d7e3573d5eb5:/pramati/company# rm employee_personal_details
 root@d7e3573d5eb5:/pramati/company# ls
 
-Output:
+Output :
 employee_details  pramati
 ```
  
@@ -266,7 +266,7 @@ find
 Example :
 root@d7e3573d5eb5:/pramati# find company
 
-Output:
+Output :
 company
 company/employee
 company/employee_details
