@@ -181,7 +181,6 @@ root@d7e3573d5eb5:/pramati/company# diff employee employee_details
 
 < Salary: 31k
 
----
 
 < Name : priya
 
