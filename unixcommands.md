@@ -18,28 +18,40 @@ OUTPUT :
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  pramati  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
 
-- **ls -l --- Lists your files in 'long format'** 
+- **Lists your files in 'long format'** 
 
 ``` 
+Syntax : 
 ls -l
 
-OUTPUT :
+Example :
+root@d7e3573d5eb5:/pramati#ls -l
+
+Output :
 total 8
 -rw-r--r-- 1 root root 69 Jan 23 09:10 employee
 -rw-r--r-- 1 root root 69 Jan 23 09:08 employee2
 ```
 
-- **ls -a --- Lists all files, including the ones whose filenames begin in a dot, which you do not always want to see**
+- **Lists all files, including the ones whose filenames begin in a dot, which you do not always want to see**
 
 ```
- ls -a
+Syntax :
+ls -a
+
+Example:
+ root@d7e3573d5eb5:/pramati#ls -a
  
 OUTPUT :
 .  ..  employee  employee2
 ```
 
--  **mkdir dirname --- Make a new directory**
+-  **Make a new directory**
 ```
+Syntax:
+mkdir dirname
+
+Example:
 root@d7e3573d5eb5:/pramati# mkdir company
 root@d7e3573d5eb5:/pramati# ls
 
@@ -47,35 +59,47 @@ OUTPUT :
 Company  employee  employee2
 ```
 
--  **cd dirname --- Change directory.**
+-  **Change directory.**
 
 ```
+Syntax :
+cd dirname
+
+Example :
 root@d7e3573d5eb5:/pramati# cd company
 
-OUTPUT :
+Ouput :
 root@d7e3573d5eb5:/pramati/company#
 ```
 
-- **pwd --- tells you where you path**
+- **To get the path**
 
 ```
+Syntax :
+pwd
+
+Example :
 root@d7e3573d5eb5:/pramati/company# pwd
 
-OUTPUT :
+Ouput :
 /pramati/company
 ```
 
-- **touch --- To create a file**
+- **To create a file**
 
 ```
+Syntax :
+touch filename
+
+Example :
 root@d7e3573d5eb5:/pramati/company# touch employee_details
 root@d7e3573d5eb5:/pramati/company# ls
 
-OUTPUT :
+Output :
 employee_details
 ````
 
-- **vi --- To write or edit file**
+- **To write or edit file**
 ```
  - 1.To use vi in ubuntu docker 
    - docker exec -it containername  bash
@@ -85,25 +109,33 @@ employee_details
    - apt-get install vim
    ``` 
 
-- **cat --- To show the content of the file**
+- **To show the content of the file**
 
 ```
+Syntax :
+cat filenmame
+
+Example :
 root@d7e3573d5eb5:/pramati/company# cat employee_details
 
-OUTPUT:
+Output:
 Name : priya
 Age  : 21
 DOB  : 11/11/1996
 Salary : 3.75l
 ```
 
-#### cat file1 >file 2 - Over write the content
+- **To over write the content**
 
 ```
+Syntax :
+cat file1 >file 2
+
+Example :
 root@d7e3573d5eb5:/pramati# cat employee>employee1
 root@d7e3573d5eb5:/pramati# cat employee1
 
-OUTPUT :
+Output :
 name:prasanna
 age:21
 dob:12/12/1997
@@ -111,12 +143,16 @@ Salary:3.75l
 position:Assosiate
 ```
 
-#### cat file1>>file2 - Append the content
+- **To append the content**
 ```
+Syntax:
+cat file1>>file2
+
+Example :
 root@d7e3573d5eb5:/pramati# cat employee>>employee1
 root@d7e3573d5eb5:/pramati# cat employee1
 
-OUTPUT:
+Output:
 name:priya
 age:21
 dob:12/12/1997
@@ -130,44 +166,58 @@ salary:3.75l
 position:Assosiate
 ```
 
-- **mv filename1 filename2 --- moves a file**
+- **Moves a file**
 
 ```
+syntax :
+mv filename1 filename2
+
+Example :
 root@d7e3573d5eb5:/pramati# mv employee1 company
 root@d7e3573d5eb5:/pramati# cd company
 root@d7e3573d5eb5:/pramati/company# ls
 
-OUTPUT:
+Output :
 employee1  employee_details
 ```
 
-- **cp filename1 filename2 --- Copies a file**
+- ** To copy a file**
 ```
+Syntax:
+cp filename1 filename2
+
+Example:
 root@d7e3573d5eb5:/pramati/company# cp employee_details employee_personal_details 
 root@d7e3573d5eb5:/pramati/company# cat employee_personal_details
 
-OUTPUT :
+Output :
 Name : priya
 Age  : 21
 DOB  : 11/11/1996
 Salary : 3.75l
 ```
--  **rm filename --- Removes a file.**
+-  *To remove a file.**
 ```
+syntax:
+rm filename
+
+Example:
 root@d7e3573d5eb5:/pramati/company# rm employee_personal_details
 root@d7e3573d5eb5:/pramati/company# ls
 
-OUTPUT:
-
+Output:
 employee_details  pramati
 ```
  
-- **diff filename1 filename2 --- compares files, and shows where they differ**
+- **Compares files, and shows where they differ**
 ```
-root@d7e3573d5eb5:/pramati/company# diff employee employee
+Syntax :
+diff filename1 filename2 
+
+Example :
 root@d7e3573d5eb5:/pramati/company# diff employee employee_details
 
-OUTPUT :
+Output :
 1,4c1,5
 < Name  :  prasanna
 < Age   : 25
@@ -179,28 +229,40 @@ OUTPUT :
 < DOB  : 11/11/1996
 < Salary : 3.75l
 ```
-- **wc filename --- Tells you how many lines, words, and characters there are in a file**
+- **To Tell you how many lines, words, and characters there are in a file**
 ```
+Syntax :
+wc filename
+
+Example :
 root@d7e3573d5eb5:/pramati/company# wc employee
 
-OUTPUT :
+Output :
  4 10 59 employee
  ```
 
-- **date - tells the current date**
+- **Tells the current date**
 ```
+Syntax :
+date
+
+Example : 
 root@d7e3573d5eb5:/pramati/company# date
 
-OUTPUT :
+Output :
 Thu Jan 24 05:20:26 UTC 2019
 ```
 
-- **find - The find command all of the files within a directory and its subdirectories that match a set of conditions.**
+- **The find command finds all of the files within a directory and its subdirectories that match a set of conditions.**
 
 ```
+Syntax :
+find 
+
+Example :
 root@d7e3573d5eb5:/pramati# find company
 
-OUTPUT :
+Output:
 company
 company/employee
 company/employee_details
