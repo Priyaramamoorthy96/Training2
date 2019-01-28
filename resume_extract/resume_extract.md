@@ -9,7 +9,7 @@ Convert all the files from the given folder and extract the Technical skills fro
   - Create a text file with Technical Skil
   - Extract the Technical skills from the files
   - Count the number of languages known
-  - Store the count with file name in the Excel sheet
+  - Store the file name, MailId, PhoneNumber, all the technical languages along with the count in the Excel sheet
   
 
 

@@ -51,7 +51,6 @@ def pdfToTxt(path):
    str = retstr.getvalue()
    retstr.close()
    return str
-
 items = os.listdir("/home/priyadharshini/priya/mycodes/resume_extract/resumes/")
 print (items)
 newlist = []
@@ -59,16 +58,20 @@ wb = Workbook()
 sheet1 = wb.add_sheet('Sheet 1') 
 i=1
 sheet1.write(0, 0, "Filename")
-sheet1.write(0, 1, "languages_Count")
-
+sheet1.write(0, 1, "MailId")
+sheet1.write(0, 2, "PhoneNumber")
+sheet1.write(0, 3, "languages_Count")
 for names in items: 
  print(names)
  direc = '/home/priyadharshini/priya/mycodes/resume_extract/resumes/'
  direc2 = direc+names
  val = document_to_text(names,direc2)
- #print(val) 
- t1=names[:-3]
- 
+ #print(val)
+ mail = re.findall('\S+@\S+', val)
+ phone = re.findall(r'\d{10}', val) 
+ print(mail)
+ print(phone)
+ t1=names[:-3] 
  t3=t1+'txt'
  t2='/home/priyadharshini/priya/mycodes/resume_extract/txtfiles/'+t3
  filecreate = open(t2,'w') 
@@ -76,8 +79,9 @@ for names in items:
  print(".txt file created")
  filecreate.close()
  n=0
- j=2
- infile2 = open("/home/priyadharshini/priya/mycodes/resume_extract/languages.txt","r")
+ j=4
+ #print(mail)
+ infile2 = open("/home/priyadharshini/priya/mycodes/resume_extract/languages.txt","r") 
  for line1 in infile2:
    for word1 in line1.split():  
      #print(word1)
@@ -95,15 +99,18 @@ for names in items:
              sheet1.write(i, j, word1) 
              j=j+1
              f=0
-     infile1.close() 
-    
+     infile1.close()   
  print(n)
- sheet1.write(i, 0, names) 
- sheet1.write(i, 1, n) 
- 
+ sheet1.write(i, 0, names)  
+ sheet1.write(i, 1, mail)
+ sheet1.write(i, 2, phone)
+ sheet1.write(i, 3, n)
+
+
  n=0
  i=i+1
- j=2
+ j=4
  wb.save('/home/priyadharshini/priya/mycodes/resume_extract/resume_info.xls') 
+
 
 
