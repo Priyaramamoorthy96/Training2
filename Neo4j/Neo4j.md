@@ -83,9 +83,20 @@ MATCH (lily:info {name: "lily", DOB: 1988, POB: "Delhi"})
 DETACH DELETE lily
 ```
 
-
-
-
+-  To import the data from excel sheet to Neo4j
+```
+Example :
+LOAD CSV with headers FROM "File:///home/priyadharshini/priya/mycodes/resume_extract/r1.csv"
+ AS lang create(c:Skills{Languages: lang.Languages})
+ ```
+ - To create a reationship between the nodes
+ ```
+ Example
+ "LOAD CSV WITH HEADERS FROM 'file:E:/Talend/Data/Input/families.csv' AS csvLine FIELDTERMINATOR ';' 
+MERGE (family:Family { name: csvLine.Family })
+CREATE (person:Person { name: csvLine.Name, gender: csvLine.Gender, age: toInt(csvLine.Age)})
+CREATE (person)-[:From]->(family)"
+```
 
 
 
