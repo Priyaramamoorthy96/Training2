@@ -1,12 +1,8 @@
 from neo4j.v1 import GraphDatabase
-
-uri             = "bolt://localhost:7687"
-userName        = "neo4j"
-password        = "PILLOWS112012;"
-
-graphDB_Driver  = GraphDatabase.driver(uri, auth=(userName, password))
-
-
+uri = "bolt://localhost:7687"
+userName = "neo4j"
+password = "PILLOWS112012;"
+graphDB_Driver = GraphDatabase.driver(uri, auth=(userName, password)
 Daniel = """MATCH (a:Actor),(b:movies),(c:movies),(d:movies)
 WHERE a.name = "DANEIL_RADCLIFF" AND b.name = "HARRY_POTTER" AND c.name = "JUNGLE" AND d.name="HORNS"
 CREATE (a)-[rd:HARRY_POTTER]->(b), (a)-[re:Yossi]->(c), (a)-[rf:Perrish]->(d)"""
