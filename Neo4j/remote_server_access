@@ -2,6 +2,8 @@
 The following changes should be done in the neo4j.conf, inorder to connect to the remote server from browser
 
 ```
+UMCOMMENT : dbms.connectors.default_listen_address=0.0.0.0
+
 dbms.connector.bolt.enabled=true
 #dbms.connector.bolt.tls_level=OPTIONAL
 #dbms.connector.bolt.listen_address=:7687
