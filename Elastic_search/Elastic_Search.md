@@ -33,33 +33,23 @@ path.data: /priya/Mytest/
 ```
 sudo systemctl start elasticsearch
 ```
+
+### Kibana Installation :
+- Install Kibana : ```sudo apt install kibana```
+- Start kibana service : ```sudo systemctl enable kibana || sudo systemctl start kibana```
+- Set password for kibana : ```echo "kibanaadmin:`openssl passwd -apr1`" | sudo tee -a /etc/nginx/htpasswd.users```
 ### Example:
 ```
 curl -X POST 'http://localhost:9200/tutorial/helloworld/1' -d '{ "message": "Hello World!" }'
 OUTPUT :
 {"_index":"tutorial","_type":"helloworld","_id":"1","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
-
-
-curl -X GET "localhost:9200/_cat/health?v" health
-curl -X GET "localhost:9200/_cat/nodes?v" list 
-curl -X GET "localhost:9200/_cat/indices?v" All indices
-curl -X PUT "localhost:9200/customer?pretty"
-curl -X GET "localhost:9200/_cat/indices?v"       create a index
-curl -X PUT "localhost:9200/customer/_doc/1?pretty" -H 'Content-Type: application/json' -d'
-{
- "name": "John Doe"	Index and Query
-}
-curl -X GET "localhost:9200/customer/_doc/1?pretty"	to retive the docs
-curl -X DELETE "localhost:9200/customer?pretty"
-curl -X GET "localhost:9200/_cat/indices?v" to delete the docs
-curl -X PUT "localhost:9200/customer/_doc/1?pretty" -H 'Content-Type: application/json' -d' Indexing/Replacing Document
-{
- "name": "Jane Doe"
-}
-'
-curl -X POST "localhost:9200/customer/_doc/1/_update?pretty" -H 'Content-Type: application/json' -d'
-{
- "doc": { "name": "Jane Doe" } update docs
-}
-'
 ```
+- Check Health : ```curl -X GET "localhost:9200/_cat/health?v```
+- List all nodes : ```curl -X GET "localhost:9200/_cat/nodes?v"```
+- Display all index : ```curl -X GET "localhost:9200/_cat/indices?v"```
+- Create a index : ```curl -X PUT "localhost:9200/customer?pretty"curl -X GET "localhost:9200/_cat/indice```
+- Index and Query : ```curl -X PUT "localhost:9200/customer/_doc/1?pretty" -H``` ```'Content-Type: application/json' -d'``````{"name": "John Doe"Index and Query}```
+- Retire the doc : ```curl -X GET "localhost:9200/customer/_doc/1?pretty"```
+- Delete the doc : ```curl -X DELETE "localhost:9200/customer?pretty"``` ```curl -X GET "localhost:9200/_cat/indices?v"```
+- Indexing/Replacing Document : ```curl -X PUT``` ```"localhost:9200/customer/_doc/1?pretty" -H 'Content-Type: application/json' -d'``` ```{"name": "Jane Doe"}'```
+
