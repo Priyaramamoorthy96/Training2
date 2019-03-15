@@ -2,7 +2,7 @@
 - Manual testing is testing of the software where tests are executed manually by a QA Analysts. It is performed to discover bugs in software under development.
 - In Manual testing, the tester checks all the essential features of the given application or software. In this process, the software testers execute the test cases and generate the test reports without the help of any automation software testing tools.
 - It is a classical method of all testing types and helps find bugs in software systems. It is generally conducted by an experienced tester to accomplish the software testing process.
-![alt text](http://www.professionalqa.com/assets/images/manual-testing.jpg)
+
 
 2.What is Automation Testing?
 - In Automated Software Testing, testers write code/test scripts to automate test execution. Testers use appropriate automation tools to develop the test scripts and validate the software. The goal is to complete test execution in a less amount of time.
@@ -25,6 +25,7 @@
 - STLC is also a part of the post-release/ update cycle, the maintenance phase of SDLC where known defects get fixed or a new functionality is added to the software.
 
 5.Software Testing Importance
+
 Software testing is really required to point out the defects and errors that were made during the development phases.
 1). It’s essential since it makes sure of the Customer’s reliability and their satisfaction in the application.
 2). It is very important to ensure the Quality of the product. Quality product delivered to the customers helps in gaining their confidence.
@@ -44,16 +45,17 @@ Here are the software development lifecycle methodologies
 - Iterative
 - Spiral
 - DevOps
+
 Each of these approaches varies in some ways from the others, but all have a common purpose: to help teams deliver high-quality software as quickly and cost-effectively as possible.
  
 Reviewing a brief description of the six most common SDLC methodologies may help you decide which is best for your team:
-1. Agile
+### Agile
 The Agile model has been around for about a decade. But lately, it has become a major driving force behind software development in many organizations. Some businesses value the Agile methodology so much that they are now applying it to other types of projects, including non-tech initiatives.
  
 In the Agile model, “fast failure” is a good thing. The approach produces ongoing release cycles, each featuring small, incremental changes from the previous release. At each iteration, the product is tested. The Agile model helps teams identify and address small issues on projects before they evolve into more significant problems, and engage business stakeholders and get their feedback throughout the development process.
  
 As part of their embrace of this methodology, many teams are also applying an Agile framework known as Scrum to help structure more complex development projects. Scrum teams work in “sprints,” which usually last two to four weeks, to complete assigned tasks. Daily Scrum meetings help the whole team monitor progress throughout the project. And the ScrumMaster is tasked with keeping the team focused on its goal. (For more on Scrum, see the Scrum Alliance website.)
-2. Lean
+### Lean
 The Lean model for software development is inspired by lean manufacturing practices and principles. The seven Lean principles (in this order) are: eliminate waste, amplify learning, decide as late possible, deliver as fast as possible, empower the team, build integrity in, and see the whole.
  
 The Lean process is about working only on what must be worked on at the time, so there’s no room for multitasking. Project teams are also focused on finding opportunities to cut waste at every turn throughout the SDLC process, from dropping unnecessary meetings to reducing documentation.
@@ -61,14 +63,13 @@ The Agile model is actually a Lean method for the SDLC, but with some notable di
  
 Ready to fill an open role? Use our candidate finder.
 
- 
-3. Waterfall
+### Waterfall
 Some experts argue that the Waterfall model was never meant to be a process model for real projects (check out the discussion on this topic on StackExchange). Regardless, the Waterfall model is widely considered the oldest of the structured SDLC methodologies. It’s also a very straightforward approach: finish one phase, then move on to the next. No going back. Each stage relies on information from the previous stage and has its own project plan.
  
 The downside of Waterfall is its rigidity. Sure, it’s easy to understand and simple to manage. But early delays can throw off the entire project timeline. With little room for revisions once a stage is completed, problems can’t be fixed until you get to the maintenance stage. This model doesn’t work well if flexibility is needed or if the project is long term and ongoing.
  
-Even more rigid is the related Verification and Validation model — or V-shaped model. This linear development methodology sprang from the Waterfall approach. It’s characterized by a corresponding testing phase for each development stage. Like Waterfall, each stage begins only after the previous one has ended. This SDLC model can be useful, provided your project has no unknown requirements.
-4. Iterative
+Even more rigid is the related Verification and Validation model — or V-shaped model. This linear development methodology sprang from the Waterfall approach. It’s characterized by a corresponding testing phase for each development stage. Like Waterfall, each stage begins only after the previous one has ended. This SDLC model can be useful, provided your project has no unknown requirements. 
+### Iterative
 The Iterative model is repetition incarnate. Instead of starting with fully known requirements, project teams implement a set of software requirements, then test, evaluate and pinpoint further requirements. A new version of the software is produced with each phase, or iteration. Rinse and repeat until the complete system is ready.
  
 Advantages of the Iterative model over other common SDLC methodologies is that it produces a working version of the project early in the process, and makes it less expensive to implement changes. One disadvantage: Repetitive processes can consume resources quickly.
@@ -76,11 +77,11 @@ Advantages of the Iterative model over other common SDLC methodologies is that i
 One example of an Iterative model is the Rational Unified Process (RUP), developed by IBM’s Rational Software division. As explained in this document from IBM, RUP is a “process product” designed to enhance team productivity that also “captures many of the best practices in modern software development in a form that is suitable for a wide range of projects and organizations.”
  
 RUP divides the development process into four phases: inception, when the idea for a project is set; elaboration, when the project is further defined, and resources are evaluated; construction, when the project is developed and completed; and transition, when the product is released. Each phase of the project involves business modeling, analysis and design, implementation, testing, and deployment.
-5. Spiral
+### Spiral
 One of the most flexible SDLC methodologies, the Spiral model takes a cue from the Iterative model and its repetition; the project passes through four phases (planning, risk analysis, engineering and evaluation) over and over in a “spiral” until completed, allowing for multiple rounds of refinement.
  
 The Spiral model is typically used for large projects. It enables development teams to build a highly customized product, and incorporate user feedback early on in the project. Another benefit of this SDLC model is risk management. Each iteration starts by looking ahead to potential risks, and figuring out how best to avoid or mitigate them.
-6. DevOps
+### DevOps
 The DevOps methodology is the newcomer to the SDLC scene. As this article explains, it emerged from two trends: the application of Agile and Lean practices to operations work, and the general shift in business toward seeing the value of collaboration between development and operations staff at all stages of the SDLC process.
  
 In a DevOps model, Developers and Operations teams work together closely — and sometimes as one team — to accelerate innovation and the deployment of higher-quality and more reliable software products and functionalities. Updates to products are small but frequent. Discipline, continuous feedback and process improvement, and automation of manual development processes are all hallmarks of the DevOps model.
