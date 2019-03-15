@@ -27,14 +27,21 @@
 5.Software Testing Importance
 
 Software testing is really required to point out the defects and errors that were made during the development phases.
+
 1). It’s essential since it makes sure of the Customer’s reliability and their satisfaction in the application.
+
 2). It is very important to ensure the Quality of the product. Quality product delivered to the customers helps in gaining their confidence.
+
 3). Testing is necessary in order to provide the facilities to the customers like the delivery of high quality product or software application which requires lower maintenance cost and hence results into more accurate, consistent and reliable results.
+
 4). Testing is required for an effective performance of software application or product.
+
 5). It’s important to ensure that the application should not result into any failures because it can be very expensive in the future or in the later stages of the development.
+
 6). It’s required to stay in the business.
 
-6.STLC Methodology
+6.SDLC Methodology
+
 The Software Development Life Cycle (SDLC) is the software development world’s spellcheck — it can flag errors in software creation before they’re discovered (at a much higher cost) in successive stages. But it’s much more than that, of course: SDLC can also lay out a plan for getting everything right the first time.
  
 The SDLC process involves several distinct stages, including planning, analysis, design, building, testing, deployment and maintenance. Here are six SDLC methodologies, or models, that development teams use in this effort.
