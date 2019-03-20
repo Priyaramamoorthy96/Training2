@@ -1,4 +1,4 @@
-##### BLACKBOX TESTING
+##### BLACKBOX TESTING :
 Black box testing is defined as a testing technique in which functionality of the Application Under Test (AUT) is tested without looking at the internal code structure, implementation details and knowledge of internal paths of the software. This type of testing is based entirely on software requirements and specifications.
 In BlackBox Testing we just focus on inputs and output of the software system without bothering about internal knowledge of the software program.
 For Example, an operating system like Windows, a website like Google, a database like Oracle or even your own custom application. Under Black Box Testing, you can test these applications by just focusing on the inputs and outputs without knowing their internal code implementation. 
