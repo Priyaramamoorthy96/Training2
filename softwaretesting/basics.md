@@ -27,14 +27,21 @@
 5.Software Testing Importance
 
 Software testing is really required to point out the defects and errors that were made during the development phases.
+
 1). It’s essential since it makes sure of the Customer’s reliability and their satisfaction in the application.
+
 2). It is very important to ensure the Quality of the product. Quality product delivered to the customers helps in gaining their confidence.
+
 3). Testing is necessary in order to provide the facilities to the customers like the delivery of high quality product or software application which requires lower maintenance cost and hence results into more accurate, consistent and reliable results.
+
 4). Testing is required for an effective performance of software application or product.
+
 5). It’s important to ensure that the application should not result into any failures because it can be very expensive in the future or in the later stages of the development.
+
 6). It’s required to stay in the business.
 
-6.STLC Methodology
+6.SDLC Methodology
+
 The Software Development Life Cycle (SDLC) is the software development world’s spellcheck — it can flag errors in software creation before they’re discovered (at a much higher cost) in successive stages. But it’s much more than that, of course: SDLC can also lay out a plan for getting everything right the first time.
  
 The SDLC process involves several distinct stages, including planning, analysis, design, building, testing, deployment and maintenance. Here are six SDLC methodologies, or models, that development teams use in this effort.
@@ -54,14 +61,13 @@ The Agile model has been around for about a decade. But lately, it has become a 
  
 In the Agile model, “fast failure” is a good thing. The approach produces ongoing release cycles, each featuring small, incremental changes from the previous release. At each iteration, the product is tested. The Agile model helps teams identify and address small issues on projects before they evolve into more significant problems, and engage business stakeholders and get their feedback throughout the development process.
  
-As part of their embrace of this methodology, many teams are also applying an Agile framework known as Scrum to help structure more complex development projects. Scrum teams work in “sprints,” which usually last two to four weeks, to complete assigned tasks. Daily Scrum meetings help the whole team monitor progress throughout the project. And the ScrumMaster is tasked with keeping the team focused on its goal. (For more on Scrum, see the Scrum Alliance website.)
+As part of their embrace of this methodology, many teams are also applying an Agile framework known as Scrum to help structure more complex development projects. Scrum teams work in “sprints,” which usually last two to four weeks, to complete assigned tasks. Daily Scrum meetings help the whole team monitor progress throughout the project. And the ScrumMaster is tasked with keeping the team focused on its goal.
 ### Lean
 The Lean model for software development is inspired by lean manufacturing practices and principles. The seven Lean principles (in this order) are: eliminate waste, amplify learning, decide as late possible, deliver as fast as possible, empower the team, build integrity in, and see the whole.
  
 The Lean process is about working only on what must be worked on at the time, so there’s no room for multitasking. Project teams are also focused on finding opportunities to cut waste at every turn throughout the SDLC process, from dropping unnecessary meetings to reducing documentation.
 The Agile model is actually a Lean method for the SDLC, but with some notable differences. One is how each prioritizes customer satisfaction: Agile makes it the top priority from the outset, creating a flexible process where project teams can respond quickly to stakeholder feedback throughout the SDLC. Lean, meanwhile, emphasizes the elimination of waste as a way to create more overall value for customers — which, in turn, helps to enhance satisfaction.
  
-Ready to fill an open role? Use our candidate finder.
 
 ### Waterfall
 Some experts argue that the Waterfall model was never meant to be a process model for real projects (check out the discussion on this topic on StackExchange). Regardless, the Waterfall model is widely considered the oldest of the structured SDLC methodologies. It’s also a very straightforward approach: finish one phase, then move on to the next. No going back. Each stage relies on information from the previous stage and has its own project plan.
