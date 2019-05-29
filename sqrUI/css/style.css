@@ -1,0 +1,128 @@
+body,html,p,a,h1,h2,pre{
+	display: block;
+}
+
+body, .links {
+    height:100%
+}
+
+.protect
+{
+	color:white;
+}
+.navcolor
+{
+	 background-color: #2196f3;
+    border-color: #2196f3;
+}
+.tit
+{
+	font-size: 20px;
+	color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+
+.navbar-form .form-control {
+	
+	margin-top: 15px;
+    display: table-footer-group;
+    width: 500px;
+    vertical-align:middle;
+}
+.navbar {
+    border-radius: 0px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1b926c;
+    border-color: #1b926c;
+    height: 40px;
+    width:200px;
+    border-radius: 2px;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: ;
+    border: 0;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    height:40px;
+    margin-left: 60px;
+    width:140px;
+}
+.secnav {
+	background-color:#2090ea;
+	margin-top: -20px;
+}
+.menutype
+{
+	font-size: 15px;
+	left-margin : 10px;
+	color:white;
+}
+
+.rightmenutype
+{
+	font-size: 15px;
+	left-margin : 10px;
+	color:white; 
+	align-items:right;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.links{
+	background: #ffff;
+	line-height: 1.7;
+	border-color: red;
+	border-style: bold;
+}
+
+.links a{
+	display: block;
+	color: #111;
+	text-align: center;
+	margin-top: 25px;
+} 
+.content
+{
+	background-color: #f1f2f3;
+}
+
+.select {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SQRFILES</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/styles/rainbow.min.css' rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.7.0/highlightjs-line-numbers.min.js"></script>
+<script>hljs.initLineNumbersOnLoad();</script>
+<script>
+$(document).ready(function(){
+  $("#div2").hide();
+  $("button").click(function(){
+    $("#div2").show();
+    $('pre code').each(function(i, e) {
+  hljs.highlightBlock(e);
+        hljs.lineNumbersBlock(e);
+    });
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    var height1 = $('.content').height()
+    var height2 = $('body').height()
+    if (height1 > height2) {
+        $('.links').height(window.outerHeight)
+          $('.content').height(window.outerHeight)
+    } else {
+        $('.links').height(window.outerHeight)
+        $('.content').height(window.outerHeight)
+    }
+});
+
+</script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navcolor">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><img src="/home/priyadharshini/priya/Training2/sqrUI/images/logo.png" alt=""></li>
+      <li><a class="tit" href="#">SQR FILES</a></li>   
+    </ul>
+    <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+    </form>
+  </div>
+</nav>
+<nav class="navbar secnav">
+  <a class="navbar-brand"href="#">
+    <span class="glyphicon glyphicon-home menutype"> Home</span>
+  </a>
+  <a class="navbar-brand"href="#">
+    <span class="glyphicon glyphicon-list menutype"> Order</span>
+  </a>
+<a class="navbar-brand"href="#">
+    <span class=" glyphicon glyphicon-question-sign menutype float-right"> Help</span>
+  </a>
+  <a class="navbar-brand"href="#">
+    <span class="glyphicon glyphicon-log-out float-right menutype"> Login</span>
+  </a>
+</nav>
+
+<div class="row col-lg-12" style="margin-top: -20px">
+  <div class="col-lg-2 border border-primary links">
+  <a href="">Page1</a>
+  <a href="">Page2</a>
+  <a href="">Page3</a>
+  <a href="">Page4</a>
+  </div>
+<div class="col-lg-8 content">  
+
+<select class="btn-primary" id="sel1" name="sellist1" Style="Margin-top:20px">
+        <option class="dropdown-item">Java</option>
+        <option class="dropdown-item">Python</option>
+        <option class="dropdown-item">Ruby</option>
+        <option class="dropdown-item">C</option>
+      </select>
+<button class="btn btn-primary">CONVERT</button>
+<br>
+<br>
+<div id="div2">
+<pre><code class="javascript">// javascript
+<code>function myFunction() {</code>
+<code>  var x = document.getElementById("fname");</code>
+<code>  x.value = x.value.toUpperCase();</code>
+<code>}</code>
+<code>function myFunction() {</code>
+<code>  var x = document.getElementById("fname");</code>
+<code>  x.value = x.value.toUpperCase();</code>
+<code>}</code>
+<code>function myFunction() {</code>
+<code>  var x = document.getElementById("fname");</code>
+<code>  x.value = x.value.toUpperCase();</code>
+<code>}</code>
+<code>function myFunction() {</code>
+<code>  var x = document.getElementById("fname");</code>
+<code>  x.value = x.value.toUpperCase();</code>
+<code>}</code>
+</code></pre>
+</div>
+</div>
+<div class="col-sm-2 links">
+  <a href="">Page1</a>
+  <a href="">Page2</a>
+  <a href="">Page3</a>
+  <a href="">Page4</a>
+  </div>
+</div>
+</body>
+</html>
+
